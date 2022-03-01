@@ -1,0 +1,829 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Encheiridion paradeigmatikeon or, A manual of examples, assisting youth in their school-exercise of making theams. A work hitherto much wanting unto schools. / By W.W. ...</title>
+            <author>W. W.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1679</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 25 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B10251</idno>
+            <idno type="OCLC"> 80925202</idno>
+            <idno type="STC">Wing W144B</idno>
+            <idno type="STC">ESTC R186117</idno>
+            <idno type="EEBO-CITATION">80925202</idno>
+            <idno type="OCLC">ocm 80925202</idno>
+            <idno type="VID">192157</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B10251)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 192157)</note>
+            <note>Images scanned from microfilm: (Early English books; 1641-1700 ; 2901:11)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Encheiridion paradeigmatikeon or, A manual of examples, assisting youth in their school-exercise of making theams. A work hitherto much wanting unto schools. / By W.W. ...</title>
+                  <author>W. W.</author>
+               </titleStmt>
+               <extent>[4], 3, 8-9, 6-7, 12-13 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for the author, and are to be sold by Benjamin Tooke ...,</publisher>
+                  <pubPlace>London, :</pubPlace>
+                  <date>1679.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>First two words of the title are tranliterated Greek.</note>
+                  <note>Text is continuous despite pagination.</note>
+                  <note>Reproduction of original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="lat">lat</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Characters and characteristics in literature --  Dictionaries --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-09</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-10</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2010-10</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:192157:1" rendition="simple:additions"/>
+            <p>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. OR, A Manual of EXAMPLES, ASSISTING YOUTH In
+their School-Exerciſe of making THEAMS. A Work hitherto much wanting unto
+SCHOOLS.</p>
+            <p>By <hi>W. W.</hi> formerly Head-Schoolmaſter of the Cathedral
+School in <hi>Hereford,</hi> and lately chief-Maſter of the Free-School in
+<hi>Leiceſter.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed for the Author, and are to be ſold by
+<hi>Benjamin Tooke,</hi> at the Ship in St. <hi>Pauls</hi> Church-yard.
+1679.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:192157:2"/>
+            <pb facs="tcp:192157:2"/>
+            <p>Viro multum Reverendo digniſſimé<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> venerando,
+Omnifariam Eruditiſſimo, Pientiſſimo, Scholaeque Regiae Weſtmonaſt.
+per Britanniam celeberrimae diu diligentiſſimo faeliciſſimóque
+Archididaſcalo D. <hi>RICHARDO BUSBY,</hi> D. D. Aedium Cathedralium
+<hi>Weſtmonaſt.</hi> ac <hi>Bathon.</hi> &amp; <hi>Wellen.</hi>
+Doctiſſimo Praebendario, Literarumque generoſiſſimo Maecenati: <hi>W.
+W.</hi> Ipſius quondam Scholaris Et omnino cultor obſequentiſſimus, Hoc
+qualecunque ſit Opuſculum humillimè dicat devovétque.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:192157:3"/>
+            <head>To the Reader.</head>
+            <p>THey that undertake Youth, ſhould facilitate (what they can) the
+way to Learning; and all little enough. For every ſeeming Difficulty (be it
+ever ſo ſmall) is ever and anon driving Boys into deſpair. That of
+Com<g ref="char:EOLhyphen"/>poſing Theams, hath (as I obſerve) diſcompoſed many; eſpecially
+when a bare <hi>Theſis</hi> from a Maſter, without any further conduct,
+hath been given them. Alas! where ſhould young Beginners meet with either
+Example or Si<g ref="char:EOLhyphen"/>militude? That they may be no more to ſeek for the one, I have
+thought of this Expedient, in commending them, by way of Common-Place, to
+<hi>Gouldmans</hi> Dictionary. Di<g ref="char:EOLhyphen"/>ctionaries Boys are never, or at leaſt,
+ſhould never be with<g ref="char:EOLhyphen"/>out. Other Authors they many times want. There<g ref="char:EOLhyphen"/>fore as
+yet I have mentioned no more than what that common Book affords. And there how
+eaſily may Youths be ſupplied! they will have Examples ready by them, and
+upon any occaſion. As ſuppoſe the Theam of <hi>Dulce eſt pro
+patriâ mori,</hi> be given them. Let them turn pre<g ref="char:EOLhyphen"/>ſently to
+<hi>Codrus, Camillus, Curtius, Decius, &amp;c.</hi> in <hi>Gouldmans</hi>
+Poetical Dictionary; which they will find under the Head of <hi>Amor in
+Patriam</hi> in this <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> of mine. I might further explain my
+ſelf, but my Book being but ſhort, my Epiſtle muſt not be long. Ac<g ref="char:EOLhyphen"/>cept
+of this at preſent, and hereafter (if God ſhall give me life) I will
+improve it to a far greater advantage unto Schools.</p>
+            <closer>
+               <signed>
+                  <hi>Your moſt humble Servant,</hi> W.
+W.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="list_of_examples">
+            <pb n="1" facs="tcp:192157:3"/>
+            <head>EXAMPLES FOR THEAMS.</head>
+            <list>
+               <head>A.</head>
+               <item>
+                  <label>Adulatio.</label> I. Varus Pergaeus. Velleius
+Paterculus. Demagoras.</item>
+               <item>
+                  <label>Adulterium.</label> II. Caliſto. Cleopatra.
+Acriſius. Agamemnon. Alcyone. Flora. Gyges. Gippius. Gallus. Hippe. Ixion.
+Laurentia. Mars. Meduſa. Nyctimene. Propaetides. Zaleucus. Aegiale. Aerope.
+Alcmena vel Alcmene. Arabs. Atreus. Charaxus. Lais. Leu<g ref="char:EOLhyphen"/>con.
+Meſſalina.</item>
+               <item>
+                  <label>Agricultura.</label> III. Faunus. Gordius.
+Heſiodus. Myrmidones. Triptole<g ref="char:EOLhyphen"/>mus. Aegle. Aeſacus. Aglaus. Alcinous. Alo.
+Ancaeus. Ariſto<g ref="char:EOLhyphen"/>xenus. Ceres. Pomona. Stercurius. Vacuna.</item>
+               <item>
+                  <label>Amicitia.</label> IV. Caſtor. Cleoſtratus.
+Euporus. Gyndes. Galeſus. He<g ref="char:EOLhyphen"/>phaeſtion. Oreſtes. Timochares. Vatinius.
+Vibius Virius. Zo<g ref="char:EOLhyphen"/>pyrus. Alceſte. Alectryon. Archias. Cadmus. Calliſthenes.
+Cineas. Clitus. Damon <hi>and</hi> Pythias. Euryalus. Leucaſpis. Pelopidas.
+Pomponius.</item>
+               <item>
+                  <label>Amor.</label> V. Ero. Haemon. Galatea.
+Hippomenes. Iole. Iphis. Lean<g ref="char:EOLhyphen"/>der. Omphale. Phyllis. Pygmalion. Pomona. Porcia.
+Pria<g ref="char:EOLhyphen"/>pus. Proteſilaus. Pyramus. Vertumnus. Acontius. Admetus. Aemilius.
+Aeſacus. Agrammes. Anaxarete. Arethuſa. Argyra. Ariadne. Bellerophontes.
+Berſane. Biblis. Byblis. Caeyx. <pb n="2" facs="tcp:192157:4"/>Campaſpe. Canens. Clytia.
+Cupido. Cydippe. Danae. Daph<g ref="char:EOLhyphen"/>nis. Demophoon. Dido. Echo. Endymion. Europa.
+Jaſon. Narciſſus. Sappho. Valeria. vid. <hi>Nuptiae.</hi>
+               </item>
+               <item>
+                  <label>Amor in patriam.</label> VI. Anchurus. Androclea.
+Camillus. Codrus. Curtius. De<g ref="char:EOLhyphen"/>cius. Demarathus. Menaeceus. Philaeni. Saguntus.
+Tellus. The<g ref="char:EOLhyphen"/>miſtocles. Vibius Virius. Xanthi.</item>
+               <item>
+                  <label>Avaritia.</label> VII. Cerberus. Harpyiae.
+Menippus. Midas. Pitheus. Po<g ref="char:EOLhyphen"/>lydorus. Pyrander. Salluſtius <hi>vel</hi>
+Saluſtius. Tantalus. Veſpa<g ref="char:EOLhyphen"/>ſianus. Vitellius. Acheron. Aeſculanus.
+Albutuis <hi>vel</hi> Albu<g ref="char:EOLhyphen"/>cius. Argo. Argonautae. Arion. Atalanta. Battus.
+Belis. Cepio Servilius. Cerberus. Chryſorrhoas. Craſſus. Creſcens.
+Heſpe<g ref="char:EOLhyphen"/>rides. Hippomenes. Pigmalion. Timochares. Tantalus; <hi>ali<g ref="char:EOLhyphen"/>qui ad
+avaros hanc Tantali fabulam torquent.</hi>
+               </item>
+            </list>
+            <list>
+               <head>B.</head>
+               <item>
+                  <label>Bellum.</label> VIII. Fabius. Melon. Metius.
+Palamedes. Palladium. Pe<g ref="char:EOLhyphen"/>riclymenus. Phormio. Pittacus. Pygmaei. Titan. Tullus.
+Vo<g ref="char:EOLhyphen"/>lones. Aegeria. Beduini. Campus lapideus. Crethon. Hiarbas. vid.
+<hi>Victoria.</hi>
+               </item>
+               <item>
+                  <label>Beneficentia.</label> IX. Euergetes. Nilus.
+Philaeni. Artaxerxes. Charites. Martius Ancus. Metiochus. vid.
+<hi>Liberalitas.</hi>
+               </item>
+            </list>
+            <list>
+               <head>C.</head>
+               <item>
+                  <label>Caſtitas.</label> X. Bona Dea. Dido. Duillius.
+Euripides. Fauna. Herma<g ref="char:EOLhyphen"/>phroditus. Hippolytus. Lucretia. Penelope. Senta.
+Sophro<g ref="char:EOLhyphen"/>nia. Timoclea. Zenobia. Artemiſia. Baldraca. Biblia. Caſta<g ref="char:EOLhyphen"/>lins.
+Claudia. Clitomachus. Diana. Gynaecocoſmi. Ictus. Micca. Pontia.</item>
+               <item>
+                  <label>Concordia.</label> XI. Geryon. Scyllurus. Agrippa
+Menenius. Amphyction. Amphion. Aſtymeduſa. Creon. Eteocles. Hanno.
+Hyperbolus. Jocaſta. Laodocus. Mars. Sauromatae. Xenophon. vid.
+<hi>Odium.</hi>
+               </item>
+               <item>
+                  <label>Conſcientia bona, mala.</label> XII. Symmachus.
+Furiae. Acheron. Alcmaeon. Tityus.</item>
+               <item>
+                  <label>Conſilium.</label> XIII. Icarus. Laocoon.
+Neſtor. Delphi. Dion. Evander. Fabius. Iphicrates. Aeſymus.</item>
+               <pb n="3" facs="tcp:192157:4"/>
+               <item>
+                  <label>Contentus animus.</label> XIV. Cippus.
+Ariſtippus. Aglaus. Anaxagoras. Diogenes. Gillus. Mandanius. Phocion.
+Pheraulus. Solon. Theophilus. Aglaus. Amyris. Anacharſis. Anaxagoras.
+Ariſtides. Arſe<g ref="char:EOLhyphen"/>nius. Bambycatii. Bias. Cerberus. Crates. Curius.
+Democri<g ref="char:EOLhyphen"/>tus. Diocleſianus.</item>
+               <item>
+                  <label>Crudelitas.</label> XV. Aegiſtus. Aegyſthus.
+Agrippina. Domitianus. Diony<g ref="char:EOLhyphen"/>ſius. Draco. Eſſedones. Lucanus. Nero.
+Palinurus. Perillus. Phalaris. Polyxo. Seneca. Thomyris. Thraſeas. Tullia.
+Aemilius. Cenſorinus. Aerope. Agathocles. Annaeus Seneca. Aſtyanax. Atreus.
+Axenum mare. Belis unde Belides filiae Danai. Beſſus. Brutus. Buſyris.
+Carnabas. Cercyon. Cinna. Circe. Diomedes. Hatto. Labda. Lamiae.
+Calliſthenes. Lear<g ref="char:EOLhyphen"/>chus. Lyncus. Micca. Oreſtes. Tereus.</item>
+            </list>
+            <list>
+               <head>D.</head>
+               <item>
+                  <label>Divitiae.</label> XVI. Attalus. Heſperides.
+Hydaſpes. Pheraulus. Pluto. Polydorus. Tagus. Zeuxis. Aeſculanus. Amphias.
+Amyris. Apuleius. Arion. Atalanta. Bias. Bradeas. Chryſorrhoas. Cin<g ref="char:EOLhyphen"/>narus.
+Cornucopia. Craſſus. Croeſus. Curius. Democritus. Hippomenes.</item>
+               <item>
+                  <label>Doctrina.</label> XVII. Archimedes. Bias. Ennius.
+Gorgias. Gordianus. Hermogenes. Hiero. Homerus. Horatius. Iamblichus. Janus.
+Iſocrates. Lyſimachus. Mithridates. Phalereus. Philolaus. Pindarus.
+Piſiſtratus. Plutarchus. Pythagoras. Quintilianus. Socrates. Stilpo. Varro.
+Xeniades. Zenobia. Zoroaſtes. Ale<g ref="char:EOLhyphen"/>xander. Amphion. Antimachus. Antiſthenes.
+Apollo. Ar<g ref="char:EOLhyphen"/>chelaus. Archias. Aſinius. Athenaeum. Boetius. Bradeas. Cato.
+Cethegus. Craſſus. Cteſibus. Creſiphon. Diotima Epi<g ref="char:EOLhyphen"/>ctetus.
+Eratoſthenes. Eupolis. Minerva. Monymus. Ovidius. Tyrannion
+Amiſenus.</item>
+               <item>
+                  <label>Dolor.</label> XVIII. Alcyoneus. Clitus. Clytia.
+Creon. Cybele. Cyc<g ref="char:EOLhyphen"/>nus. Drauſi. Heliades. Heraclitus. Hylas. Laodamia. Niobe.
+Niſus. Phaethuſa. Zoroaſtres. vid. <hi>Mors &amp; Sepultura.</hi>
+               </item>
+            </list>
+            <list>
+               <head>E.</head>
+               <item>
+                  <label>Ebrietas.</label> XIX. Anacharſis. Bonoſus.
+Agave. Alexander. Lycurgus. <pb n="8" facs="tcp:192157:5"/>Novellus. Pentheus. Philoxenus.
+Polemon Polyphemus. Pro<g ref="char:EOLhyphen"/>teas. Vitellius. Zaleucus. Aegobolus. Amalthaea.
+Anaetis. Apicius. Azania. Chreſtus. Clitus. Cyana. Cyanippus.</item>
+               <item>
+                  <label>Eloquentia.</label> XX. Steſichorus. Carneades.
+Cethegus. Craſſus. Demo<g ref="char:EOLhyphen"/>ſthenes. Hegeſias. Hermagoras. Hortenſia.
+Hortenſius. Iſo<g ref="char:EOLhyphen"/>crates. Labeo. Neſtor. Piſiſtratus. Ulyſſes. vid.
+<hi>Doctrina.</hi>
+               </item>
+            </list>
+            <list>
+               <head>F.</head>
+               <item>
+                  <label>Fama.</label> XXI. Arbuſcula.</item>
+               <item>
+                  <label>Fortitudo.</label> XXII. Achilles. Aegaeon.
+Arethuſa <hi>&amp;</hi> Heſperethuſa. Alexander. Anaxarchus. Ageſilaus.
+Epaminondas. He<g ref="char:EOLhyphen"/>ctor. Harpalyce. Hannibal. Herminius. Horatius. Leonidas.
+Lyſimachus. Marius. Marcellus. Milo. Mithridates. Perſeus. Polydamas.
+Pompeius. Saguntus. Scaevola. Semiramis. Ser<g ref="char:EOLhyphen"/>torius. Telamon. Thomyris.
+Titurnus. Tritanus. Tydeus. Xantippus. Zenobia. Abydeni. Amazones. Androclidas
+Lacon. Bellerophontes. Briareus. Capaneus. Cocles. Cynae<g ref="char:EOLhyphen"/>girus. Hoſtilius.
+Lyſander. Manlius. Nemea. Numantia.</item>
+               <item>
+                  <label>Fortuna proſpera.</label> XXIII. Polycrates.
+Pyrrhias. Timotheus. Beliſarius. Cin<g ref="char:EOLhyphen"/>cinnatus. Regillianus.
+Telephanes.</item>
+               <item>
+                  <label>Fortuna adverſa.</label> XXIV. Hegeſias.
+Heraclitus. Ilias. Pandora. Polycrates. Stilpo. Thrauſi. Ulyſſes.
+Abderitani. Abiaſiris. Actaeon. Ad<g ref="char:EOLhyphen"/>metus. Beliſarius. Dionyſius.
+Euphrates. Seneca. Troja.</item>
+               <item>
+                  <label>Fraus.</label> XXV. Dido. Cacus. Dolon. Eriphyle.
+Eurybatus. Fali<g ref="char:EOLhyphen"/>ſci. Fulvius. Hippodame. Labienus. Lyſander. Oenomaus.
+Sinon. Syphax. Tellias. Troctes. Varus. Viriatus. Aegles. Aeneas. Amphiaraus.
+Amycus. Artaxerxes. Briareus. Byrſa. Canopus. Condalus Deiphobus. Hypatius.
+Pittacus. Pſapho. Semiramis. Sertorius. Timochares.</item>
+            </list>
+            <list>
+               <head>G.</head>
+               <item>
+                  <label>Garrulitas.</label> XXVI. Calphurnia.
+Proſerpina. Lara. Siſyphus, <hi>qui ob garrulitatem (ut fingit Homerus)
+poenis adjudicatus.</hi> Zeno. vid. <hi>Lingua.</hi>
+               </item>
+               <pb n="9" facs="tcp:192157:5"/>
+               <item>
+                  <label>Gloria.</label> XXVII. Hermodorus. Heroes.
+Ennius. Epaminondas. Eratoſthenes. Euriſtheus. Hoſtilius.</item>
+               <item>
+                  <label>Gratitudo.</label> XXVIII. Iolaus.
+Iphianaſſa. Juturna. Molorchus. Pyr<g ref="char:EOLhyphen"/>rhias. Syloſon. Theophanes. Aepalius.
+Ameſtris. Artaxerxes. Augeas. Cajeta. Celeus. Charites. Gordius. Halaenus.
+Hippo<g ref="char:EOLhyphen"/>menes. Idomeneus. Laomedon. Orion. Popilius. Tiſias.</item>
+               <item>
+                  <label>Gula. Ingluvies.</label> XXIX. Herodotus. Phago.
+Sabidius. Vitellius. Aglais. Apicius. Cambles. Demades. Hercules. Milo.
+Philoxenus. Severus.</item>
+            </list>
+            <list>
+               <head>H.</head>
+               <item>
+                  <label>Honor.</label> XXX. Hanno. Hippocrates. Phaeton.
+Pſapho. Ptolemaeus Regillianus. Sejanus. Sylvanus. Tallantia. Achaemenes.
+Aga<g ref="char:EOLhyphen"/>thocles. Alphenus. Ariſtides. Beliſarius. Bradeas. Carius. Claelia.
+Cteſiphon. Cybele. Demetrius. Democles. Demo<g ref="char:EOLhyphen"/>critus. Diocleſianus.
+Dionyſius. Empedocles. Eratoſthenes. Fabius. Ganymedes. Hermodorus. vid.
+<hi>Gloria.</hi>
+               </item>
+            </list>
+            <list>
+               <head>I.</head>
+               <item>
+                  <label>Ignavia.</label> XXXI. Lucullus. Pithanoſcome.
+Sardanapalus. Tullus. Xenocrates. Domitianꝰ. Epimenides. Hermogenes.
+Lateranus.</item>
+               <item>
+                  <label>Impietas.</label> XXXII. Cambyſes.
+Eroſtratus. Hecate. Glycon. Gigan<g ref="char:EOLhyphen"/>tes. Furiae. Iapyges. Lais. Lycaon Medea.
+Micca. Oreſtes. Siſyphus. Sylla. Tigilinus Ophonius. Ariſtoteles. Belis
+<hi>unde</hi> Belides <hi>filiae Danai.</hi> Camarina. Crinis. Enceladus.
+Ephialtes. Flora. Hecatonchiros. Menius. Palinurus. Phlegyas.
+Theo<g ref="char:EOLhyphen"/>polemus.</item>
+               <item>
+                  <label>Invidia.</label> XXXIII. Euripides. Zoilus.
+Homeromaſtix. Aedon. Ba<g ref="char:EOLhyphen"/>vius. Iſocrates. Itylus. Socrates.</item>
+               <item>
+                  <label>Ira.</label> XXXIV. Athenodorus. Clinias. Stoici.
+Atys. Cotys. Em<g ref="char:EOLhyphen"/>pedocles. Memmius.</item>
+               <item>
+                  <label>Jaſtitia.</label> XXXV. Ariſtides. Aſtraea.
+Paris.</item>
+            </list>
+            <pb n="6" facs="tcp:192157:6"/>
+            <list>
+               <head>L.</head>
+               <item>
+                  <label>Labor.</label> XXXVI. Antiſthenes. Cleanthes.
+Agararchus. Gymno<g ref="char:EOLhyphen"/>ſophiſtae. Hercules. Hippias. Praxiteles. Theophraſtus.
+Thu<g ref="char:EOLhyphen"/>cydides. Agerona. Archimedes. Baleares. Callias. Campus Martius. Cherophon.
+Chreſtus. Demoſthenes. Gordianus. Gorgias. Heraclitus. Hiero. Homerus.
+Myrmidones. Occaſio. Plautus.</item>
+               <item>
+                  <label>Liberalitas.</label> XXXVII. Bion. Charites.
+Plautus. Proculeius. Sydon. Anthybia. Antiochus Epiphanes. Antiſthenes.
+Cheopes. Ci<g ref="char:EOLhyphen"/>mon. Clodius. Curius. Democritus. Martius Ancus. Mecaenas.
+Metiochus. Oeniſteria. Orion. Protervia. Timagoras.</item>
+               <item>
+                  <label>Libido.</label> XXXVIII. Actaeon. vid.
+<hi>Adulterium.</hi>
+               </item>
+               <item>
+                  <label>Lingua.</label> XXXIX. Hecuba. Therſites. Zeno.
+Aexones. Anacharſis. Archilochus. Ariſtophanes. Aſcalaphus. Athenodorus.
+Bat<g ref="char:EOLhyphen"/>tus. Byzenus. Ceres. Choromandae. Coronis. Demochares. Euryminus. Fulvius.
+Hyperbolus. Labienus. Lara. Calphur<g ref="char:EOLhyphen"/>nia. Proſerpina, vid.
+<hi>Garrulitas.</hi>
+               </item>
+            </list>
+            <list>
+               <head>M.</head>
+               <item>
+                  <label>Magiſtratus.</label> XL. Hoſtaſius.
+Hybreas. Cato. Marius. Paris. Pentheus. Phaeton. Phalereus. Talantia. Tenes.
+Theophilus. Veſpaſia<g ref="char:EOLhyphen"/>nus. vid. <hi>Honor.</hi>
+               </item>
+               <item>
+                  <label>Memoria.</label> XLI. Croeſus. Hortenſius.
+Labienus. Mithridates. Mne<g ref="char:EOLhyphen"/>moſyne.</item>
+               <item>
+                  <label>Mendacium.</label> XLII. Epaminondas. Eucarpia.
+Euryminus. Galanthis. Pomponius. vid. <hi>Fraus.</hi>
+               </item>
+               <item>
+                  <label>Miſericordia.</label> XLIII. Leucothea.
+Oedipus. Orion. Pius Antoninus. Pom<g ref="char:EOLhyphen"/>ponius. Pyrrhias. Tigranes. Aceſtes.
+Acriſius. Aegyſthus. Aleander. Croeſus. Fauſtulus. Iphigenia. Iphis.
+Lynceus. Po<g ref="char:EOLhyphen"/>lyxo. Hypſipyle.</item>
+               <item>
+                  <label>Mors &amp; Sepultura.</label> XLIV. Aeſchylus.
+Agamedes. Ancaeus. Eupolis. Heliades. Hylas. Ino. Mandanius. Niobe. Orpheus.
+Phaethuſa. Poly<g ref="char:EOLhyphen"/>bius. Porcia. Pyramides. Thrauſi. Tibullus. Varus.
+Vitellius. <pb n="7" facs="tcp:192157:6"/>Xenophilus. Xerxes. Acheron. Adrianus. Aeacus.
+Aegaeus. Agamemnon. Ania. Antipater. Ariſtippus. Artemiſia. Au<g ref="char:EOLhyphen"/>tolemus.
+Axiochus. Biton. Calanus. Calingae. Capaneus. Cleobis. Clitus. Crantor.
+Croeſus. Drauſi. Epaphroditus. Evadne. Euphrates. Gyndes. Hector. Laodamia.
+Leoſthenes. Parcae. Therſilochus. Thraſeas Paetus.</item>
+               <item>
+                  <label>Muſica.</label> XLV. Orpheus. Apollo. Amphion.
+Terpander. Zetus.</item>
+            </list>
+            <list>
+               <head>N.</head>
+               <item>
+                  <label>Nuptiae.</label> XLVI. Admetus. Aemilius.
+Halcyon. Hermocrates. Iar<g ref="char:EOLhyphen"/>bas. Jaſon. Idas. Laodamia. Lucretius. Martia.
+Minerva. Oc<g ref="char:EOLhyphen"/>nus. Papirius. Pleiades. Polyxena. Porcia. Proteſilaus.
+Xan<g ref="char:EOLhyphen"/>tippe. Acriſius. Alceſte. Amazones. Ania. Artemiſia. Caeyx. Canens.
+Cecrops. Cithaeron. Creſtones. Cydippe. Cupido. Cyrus. Evadne. Eunoſtus.
+Euripides. Helenus. Laodice. Leo<g ref="char:EOLhyphen"/>ſthenes. Monyma. Octavia. Orpheus. Tegeatae.
+Valeria. vid. <hi>Amor.</hi>
+               </item>
+            </list>
+            <list>
+               <head>O.</head>
+               <item>
+                  <label>Obedientia.</label> XLVII. Atys. Antigone.
+Torquatus. Triptolemus. Cleo<g ref="char:EOLhyphen"/>bis. Coriolanus. Hypſipyle.</item>
+               <item>
+                  <label>Odium.</label> XLVIII. Eteocles. Hipponax.
+Pelius. Thyeſtes. Vatinius. Cappadocia. Eubulus. Euripedes. Euriſtheus.
+Galanthis. vid. <hi>Vindicta.</hi>
+               </item>
+            </list>
+            <list>
+               <head>P.</head>
+               <item>
+                  <label>Patientia.</label> XLIX. Anaxarchus.
+Demochares.</item>
+               <item>
+                  <label>Pax.</label> L. Tullus. vid.
+<hi>Bellum.</hi>
+               </item>
+               <item>
+                  <label>Paupertas.</label> LI. Irus. Clearchus. Codrus.
+Fabricius. Callias. Phocion. Telenicus. Tellus. vid. <hi>Contentus
+animus.</hi>
+               </item>
+               <item>
+                  <label>Pecunia.</label> LII. Ariſtippus. Argentinus.
+Arion. Bambycatii. Danae. Demonica. Eriphyle. Fabricius. Hippodame. vid.
+<hi>Divitiae.</hi>
+               </item>
+               <item>
+                  <label>Pietas.</label> LIII. Baucis &amp; Philemon<g ref="char:punc">▪</g>
+Anaxagoras. Janus. Ilus. Me<g ref="char:EOLhyphen"/>naeceus. Pomponius. Themiſtocles. Thraſybulus.
+Vejupiter. <pb n="12" facs="tcp:192157:7"/>Aegeria. Anchurus. Androclea. Ariſtides.
+Aſtraea. Camillus. Chryſogonus. Cleombrotus. Delos. Epaminondas.
+Fabricius.</item>
+               <item>
+                  <label>Promiſſa.</label> LIV. Attilius Regulus.
+Eucrates. Heſione. Idomeneus. Laomedon. Philoctetes. Argaeus. Chares.
+Daphnis. Demo<g ref="char:EOLhyphen"/>phoon. Lyſander. Varus.</item>
+               <item>
+                  <label>Pulchritudo.</label> LV. Adonis. Helena.
+Narciſſus. Praetides. Acco. Agari<g ref="char:EOLhyphen"/>ſta. Artemon. Atys. Campaſpe.
+Euryale. Hebe. Callirrhoe. Pygmalion. Polyxena.</item>
+            </list>
+            <list>
+               <head>R.</head>
+               <item>
+                  <label>Riſus.</label> LVI. Agelaſtus.
+Zoroaſtres.</item>
+            </list>
+            <list>
+               <head>S.</head>
+               <item>
+                  <label>Senectus.</label> LVII. Tithonus. Agatho.
+Lyſicrates.</item>
+               <item>
+                  <label>Silentium.</label> LVIII. Battus. Fulvius.
+Leaena. Papirius. Zeno. vid. <hi>Lingua.</hi>
+               </item>
+               <item>
+                  <label>Stultitia.</label> LIX. Glaucus. Adraſtia
+<hi>vel</hi> Adraſtea. Alphinus. Apuleius. Arcadicus. Bavius.
+Chaerilus.</item>
+               <item>
+                  <label>Superbia.</label> LX. Niobe. Salmoneus. Thamyris.
+Timaeus. Agrippa. Alexander. Amphias. Andromeda. Antigone Arachne. Chares.
+Charilaus. Druſus. Menecrates. Orion. Pompeius. Praetides.</item>
+            </list>
+            <list>
+               <head>T.</head>
+               <item>
+                  <label>Temperantia.</label> LXI. Agave. Anacharſis.
+Aſclepiades. Brachmanes. Cor<g ref="char:EOLhyphen"/>nelia. Polemon. Theſſalus. Zaleucus.</item>
+               <item>
+                  <label>Timor.</label> LXII. Ariſtippus.
+Cleonymus.</item>
+            </list>
+            <list>
+               <head>V.</head>
+               <item>
+                  <label>Victoria.</label> LXIII. Olympia. Otryades.
+Pierus. Achilles. Aegaeon. Ariarathes. Auſes, Bellerophontes. Calchas.
+Chaeronea. Chilo. Cleombrotus. Cleomedes. Cleopatra. Cratippus. Cyrus.
+Diagoras. Duillius. Epaminondas. Euriſtheus. Fabius. Han<g ref="char:EOLhyphen"/>nibal. Hercules.
+Juba. Sapores. vid. <hi>Bellum.</hi>
+               </item>
+               <pb n="13" facs="tcp:192157:7"/>
+               <item>
+                  <label>Vindicta.</label> LXIV. Alcander. Alcippus.
+Meleager. Menelaus. Minos. Nauplius. Oeneus. Palamedes. Patroclus. Thymethes.
+Ti<g ref="char:EOLhyphen"/>tyus. Tyrrheus. Veſpaſianus. Xerxes. Aegaeus. Aegyſthus. Agamemnon.
+Agrippina Alemaeon. Althaea. Androgeus. An<g ref="char:EOLhyphen"/>tiopa. Aſdrubal. Aſteropaeus.
+Atreus. Bubalus. Hipponax. Cal<g ref="char:EOLhyphen"/>lirrhoe. Camma. Caſſandra. Charybdis.
+Chryſaeis. Creuſa. Damocrita. Eriphyle. Hatto. Iphigenia. Polydorus.
+Polyxena. Tantalus. Thomyris. Thraſybulus. vid. <hi>Odium.</hi>
+               </item>
+               <item>
+                  <label>Voluptas.</label> LXV. Epicurus. Sirenes.
+Sybaris. Areta. Ariſtippus. Cy<g ref="char:EOLhyphen"/>renaici. Eurydice. Gabalus. Lais.
+Lucullus.</item>
+               <item>
+                  <label>Virtus &amp; Viri boni.</label> LXVI. Druſus.
+Fabricius. Alcibiades. Alexander Seve<g ref="char:EOLhyphen"/>rus. Claelia. Cornelia. Crates.
+Demetrius. Epaminondas. Narſes. Phocion. Rhipheus.</item>
+            </list>
+         </div>
+         <div type="index">
+            <pb n="10" facs="tcp:192157:8"/>
+            <head>Index Communium Locorum.</head>
+            <list>
+               <head>A.</head>
+               <item>
+                  <hi>A</hi> Dulatio <hi>1</hi>
+               </item>
+               <item>Adulterium <hi>2</hi>
+               </item>
+               <item>Agricultura <hi>3</hi>
+               </item>
+               <item>Amicitia <hi>4</hi>
+               </item>
+               <item>Amor <hi>5</hi>
+               </item>
+               <item>Amor in patriam <hi>6</hi>
+               </item>
+               <item>Aſtutia. vid. <hi>Fraus.</hi>
+               </item>
+               <item>Avaritia <hi>7</hi>
+               </item>
+            </list>
+            <list>
+               <head>B.</head>
+               <item>Bellum <hi>8</hi>
+               </item>
+               <item>Beneſicentia <hi>9</hi>
+               </item>
+            </list>
+            <list>
+               <head>C.</head>
+               <item>Caſtitas <hi>10</hi>
+               </item>
+               <item>Concordia <hi>11</hi>
+               </item>
+               <item>Conſcientia bena, mala. <hi>12</hi>
+               </item>
+               <item>Conſilium <hi>13</hi>
+               </item>
+               <item>Contentus animus <hi>14</hi>
+               </item>
+               <item>Crudelitas <hi>15</hi>
+               </item>
+            </list>
+            <list>
+               <head>D.</head>
+               <item>Divitiae <hi>16</hi>
+               </item>
+               <item>Diſcordia. vid. <hi>Concordia.</hi>
+               </item>
+               <item>Doctrina <hi>17</hi>
+               </item>
+               <item>Dolor <hi>18</hi>
+               </item>
+            </list>
+            <list>
+               <head>E.</head>
+               <item>Ebrietas <hi>19</hi>
+               </item>
+               <item>Eloquentia <hi>20</hi>
+               </item>
+            </list>
+            <list>
+               <head>F.</head>
+               <item>Fama <hi>21</hi>
+               </item>
+               <item>Fortitudo <hi>22</hi>
+               </item>
+               <item>Fortuna proſpera <hi>23</hi>
+               </item>
+               <item>Fortuna adverſa <hi>24</hi>
+               </item>
+               <item>Fraus <hi>25</hi>
+               </item>
+            </list>
+            <list>
+               <head>G.</head>
+               <item>Garrulitas <hi>26</hi>
+               </item>
+               <item>Gloria <hi>27</hi>
+               </item>
+               <item>Gratitudo <hi>28</hi>
+               </item>
+               <item>Gula, ingluvies <hi>29</hi>
+               </item>
+            </list>
+            <list>
+               <head>H.</head>
+               <item>Honeſtas. vid. <hi>Virtus</hi> &amp;
+<hi>Pietas.</hi>
+               </item>
+               <item>Honor <hi>30</hi>
+               </item>
+            </list>
+            <list>
+               <head>I.</head>
+               <item>Ignavia <hi>31</hi>
+               </item>
+               <item>Impietas <hi>32</hi>
+               </item>
+               <item>Invidia <hi>33</hi>
+               </item>
+               <item>Ingratitudo. vid. <hi>Gratitudo.</hi>
+               </item>
+               <item>Ira <hi>34</hi>
+               </item>
+               <item>Juſtitia <hi>35</hi>
+               </item>
+            </list>
+            <list>
+               <head>L.</head>
+               <item>Labor <hi>36</hi>
+               </item>
+               <item>Liberalitas <hi>37</hi>
+               </item>
+               <item>Libido <hi>38</hi>
+               </item>
+               <item>Lingua <hi>39</hi>
+               </item>
+               <item>Laſcivia. vid. <hi>Adulterium.</hi>
+               </item>
+            </list>
+            <list>
+               <head>M.</head>
+               <item>Magiſtratus <hi>40</hi>
+               </item>
+               <item>Memoria <hi>41</hi>
+               </item>
+               <item>Mendacium <hi>42</hi>
+               </item>
+               <item>Miſericordia <hi>43</hi>
+               </item>
+               <item>Mars &amp; Sepultura <hi>44</hi>
+               </item>
+               <item>Muſica <hi>45</hi>
+               </item>
+            </list>
+            <list>
+               <head>N.</head>
+               <item>Nuptiae <hi>46</hi>
+               </item>
+            </list>
+            <list>
+               <head>O.</head>
+               <item>Obedientia <hi>47</hi>
+               </item>
+               <item>Odium <hi>48</hi>
+               </item>
+            </list>
+            <list>
+               <head>P.</head>
+               <item>Patientia <hi>49</hi>
+               </item>
+               <item>Pax <hi>50</hi>
+               </item>
+               <item>Paupertas <hi>51</hi>
+               </item>
+               <item>Pecunia <hi>52</hi>
+               </item>
+               <item>Perſidia. vid. <hi>Fraus.</hi>
+               </item>
+               <item>Pietas <hi>53</hi>
+               </item>
+               <item>Prodigalitas. vid. <hi>Liberalitas.</hi>
+               </item>
+               <item>Promiſſa <hi>54</hi>
+               </item>
+               <item>Pulchritudo <hi>55</hi>
+               </item>
+            </list>
+            <list>
+               <head>R.</head>
+               <item>Riſus <hi>56</hi>
+               </item>
+            </list>
+            <list>
+               <head>S.</head>
+               <item>Sapientia. vid. <hi>Doctrina.</hi>
+               </item>
+               <item>Senectus <hi>57</hi>
+               </item>
+               <item>Silentium <hi>58</hi>
+               </item>
+               <item>Superbia <hi>59</hi>
+               </item>
+               <item>Stultitia. <hi>60</hi>
+               </item>
+            </list>
+            <list>
+               <head>T.</head>
+               <item>Temperantia <hi>61</hi>
+               </item>
+               <item>Timor <hi>62</hi>
+               </item>
+            </list>
+            <list>
+               <head>V.</head>
+               <item>Victoria <hi>63</hi>
+               </item>
+               <item>Vindicta <hi>64</hi>
+               </item>
+               <item>Voluptas <hi>65</hi>
+               </item>
+               <item>Virtus &amp; viri boni <hi>66</hi>
+               </item>
+            </list>
+         </div>
+         <div type="example">
+            <pb n="11" facs="tcp:192157:8" rendition="simple:additions"/>
+            <head>Turpe eſt in extremo deficere.</head>
+            <p>A Rude Work and of the firſt hand hath benefitted no Workman;
+All the labour is loſt, if the laſt File comes not to it. The Bee frames
+the Wax, that ſhe may hide up her Honey: Every one builds a Houſe that he
+may live pleaſingly therein. Not the Work begun,
+<gap reason="illegible" resp="#OXF" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> ended, becomes profitable.
+Who doth not admire the <hi>Aeneads</hi> of <hi>Virgil?</hi> but becauſe they
+were imperfect, by the Au<g ref="char:EOLhyphen"/>thor they were deſtined to the fire: Who doth not
+think the <hi>Venus</hi> of <hi>Apelles</hi> to be celebrated? but becauſe
+the laſt hand was wanting, it was hated by him. Every Comedy, that it may
+ſucceed proſperouſly, depends upon the laſt Act; and that any one may
+conſecrate his Name to Eter<g ref="char:EOLhyphen"/>nity, the laſt Scene of his Life is to be
+expected: In vain hath the Integrity of Youth ſhined forth, when the Impie<g ref="char:EOLhyphen"/>ty
+of Old Age betrays it ſelf; It is to be accounted in the place of a
+Monſter; when as the Poet,</p>
+            <q>
+               <l>—Turpiter atrum</l>
+               <l>Deſinit in piſcem mulier formoſa ſuperné.</l>
+            </q>
+         </div>
+         <div type="example">
+            <head>Forma Bonum fragile eſt.</head>
+            <p>HE that ſees a fading Roſe, hath the flux condition of Beauty
+ſet before him; The North Wind blowing, the Roſe withers, and a Diſeaſe
+coming, Beauty vaniſhes: Hence it is compared to a Solſtitial Herb, which
+both ſud<g ref="char:EOLhyphen"/>denly riſes, and ſuddenly falls. That it is good, that doth
+plead, becauſe it conſiſts of Symmetry, becauſe it draws the eyes of
+all to it; that it is frail, that doth evince, be<g ref="char:EOLhyphen"/>cauſe it ſuffers ſuch
+ſudden decays. <hi>Helena</hi> overcame all in Beauty, and was accepted of by
+<hi>Paris,</hi> but ſuddenly that <pb n="12" facs="tcp:192157:9" rendition="simple:additions"/>comelineſs of
+her Countenance did languiſh, and ſhe did complain that her beauty failed.
+The comlineſs of Beauty how much doth it pleaſe, but how unſtable is it?
+The Sun, when it is higheſt, how ſoon doth it haſten to the fall? And
+thoſe Graces which ſport in the Face, how ſuddenly are they brought to
+their end? Well ſaith the Poet, <hi>Fulgor te<g ref="char:EOLhyphen"/>neris radians genis Momento
+rapitur, nallaque non dies Formoſi ſpolium corporis abſtulit. Res eſt
+forma fugax.</hi>
+            </p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:192157:9"/>
+         </div>
+      </body>
+   </text>
+</TEI>
